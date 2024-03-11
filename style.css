@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Colors : #DDE2E3   #9AACB8bg  #B37C57  #3C455C  #60412B */
+
+
+body{
+    background-color: #9AACB8;
+}
+
+.hero{
+    padding: 30px 10%;
+}
+
+.navbar{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .navbar-name{
+    font-size: 40px;
+    color: #3C455C;
+}
+
+.navbar .navbar-socials{
+    font-size: 24px;
+}
+
+
+.navbar-content nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-content nav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.navbar-content nav ul .pointers {
+    border-bottom: 2px solid black;  
+    padding-bottom: 3px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3C455C;
+    position: absolute;
+    top: 26%;
+    left: 347px;
+} 
+
+.circle-text span{
+    position: absolute;
+    left: 20%;
+    font-size: 1em;
+    transform-origin: 0 200px;
+    line-height: 8;
+}
+
+.circle-text{
+    font-weight: 100;
+}
+
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 500px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-me{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    gap: 100px;
+}
+
+.rectangle{
+    width: 277px;
+    height: 329px;
+    background-color: #3C455C;
+    z-index: -1;
+    margin-top: -150px;
+    margin-left: -100px;    
+}
+
+.about-text h1,
+.about-text p{
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    line-height: 1.5;
+}
+
+.about-text{
+    margin-top: 40px;
+}
+
+.name{
+    border-bottom: 4px solid black;
+}
+
+.learn-more{
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.creative-section{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -300px;
+}
+
+.creative{
+    display: block;
+    color:#3C455C ;
+}
+
+.main-creative-text{
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.video{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    display: flex;
+}
+
+.video p{   
+    font-size: 20px;
+    margin: auto 5px;
+}

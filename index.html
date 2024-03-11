@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio | Web Design</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar-content">
+            <nav class="navbar">
+                <h1 class="navbar-name">ethramz</h1>
+                <ul>
+                    <li class="pointers">meet ethan</li>
+                    <li class="pointers">my work</li>
+                    <li class="pointers">case studies</li>
+                    <li class="pointers">testimonials</li>
+                    <li class="pointers">blog</li>
+                    <li class="pointers">contact me</li>
+                </ul>
+                <div class="navbar-socials">
+                    <ul>
+                        <li><strong>fb</strong></li>
+                        <li><strong>tw</strong></li>
+                        <li><strong>in</strong></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="work-hard">
+            <div class="circle"></div>
+            <div class="circle-container">
+                <h2 class="circle-text">SUCCEED,WORK HARD, DREAM BIG,</h2>
+            </div>
+        </div>
+    </div>
+   <div class="about-section">
+        <div class="about-me">
+            <div class="main-image">
+                <div class="photo">
+                    <img src="images/man.png" alt="">
+                </div>
+                <div class="rectangle"></div>
+            </div>
+            <div class="about-text">
+                <h1>I'm <span class="name">Ethan Ramirez</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia nostrum eius voluptate beatae vero earum, pariatur facilis. Numquam et animi cupiditate est ullam sunt aliquid. Quidem voluptatibus deleniti tempora?</p>
+                <p class="learn-more">Learn More</p>
+            </div>
+        </div>
+   </div>
+   <div class="creative-section">
+        <h2>HI THERE</h2>
+        <h1 class="main-creative-text">lets think <span class="creative">creative</span></h1>
+   </div>
+   <div class="video">
+        <img src="images/play.png" alt="" height="200px">
+        <p>Frontend Developer with a Passion for Responsive Web Design</p>
+   </div>
+    <script>
+        const text = document.querySelector('.circle-text');
+        text.innerHTML = text.innerText.split("").map(
+            (char, i) =>
+            `<span style= "transform:rotate(${i*12}deg)">${char}</span>`
+        ).join("")
+    </script>
+</body>
+</html>
