@@ -125,6 +125,18 @@ body{
     margin-top: -300px;
 }
 
+.hello-section{
+    display: flex;
+}
+
+.line{
+    margin-left: 5px;
+    margin-top: 11px;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+}
+
 .creative{
     display: block;
     color:#3C455C ;
@@ -146,6 +158,49 @@ body{
 }
 
 .video p{   
-    font-size: 20px;
+    font-size: 15px;
     margin: auto 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
+
+/* .statistics{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.statistics .box-1{
+    width: 370px;
+    height: 50px;
+    background-color:  #B37C57 ;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    border-radius: 10px;
+}
+
+.statistics .box-2{
+    width: 300px;
+    height: 40px;
+    background-color: #3C455C;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.statistics .box-3{
+    width: 200px;
+    height: 35px;
+    background-color: #60412B;
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+} */
